@@ -1,0 +1,109 @@
+/*******************************************BODY SELECTORS***********************************/
+
+body {
+
+    background-color:hsl(0, 0%, 98%);
+    
+}
+
+
+
+h1, h2, h3, p {
+
+    font-family:"Poppins", sans-serif;
+    
+}
+
+p {
+
+    color:hsl(229, 6%, 66%);
+    font-weight:400;
+}
+
+/******************************************TOP-CONTAINER********************************/
+
+.top-container {
+
+    padding:6% 35%;
+    text-align:center;
+    
+}
+
+.heading {
+
+    color:hsl(234, 12%, 34%);
+    font-size:2.5rem;
+    font-weight: 200;
+    margin:0;
+}
+
+.big-heading {
+
+    font-weight:600;
+
+}
+
+
+
+/*****************************************BOTTOM-CONTAINER**************************************/
+
+.bottom-container{
+
+    align-items: center;          /*o align-items coloca os elementos todos alinhados, na vertical,muito importante para a disposição desejada*/
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin-bottom:100px;
+    
+   
+
+}
+
+.box {
+    background-color: #fff;
+    border-top:solid 4px;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05), 0 6px 6px rgba(0, 0, 0, 0.1);
+    height:250px;
+    padding: 20px 40px;
+    position:relative;
+    margin: 20px 10px;
+    
+    width:350px;
+}
+
+.box-heading {
+    
+    color:hsl(234, 12%, 34%);
+    font-weight:400;
+
+}
+
+
+.b1 {
+
+    border-color:hsl(180, 62%, 55%);
+}
+
+.b2 {
+
+    border-color:hsl(0, 78%, 62%);
+    margin-bottom:10px;
+}
+
+.b3 {
+
+    border-color:hsl(212, 86%, 64%);
+}
+
+.b4 {
+
+    border-color:hsl(34, 97%, 64%);
+    margin-top:40px;
+}
+
+.box-img {
+
+    display:block;
+    margin-left:auto;
+}
