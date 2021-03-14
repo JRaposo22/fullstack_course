@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+
+</head>
+
+<body>
+
+
+  <div class="main--container">
+    <div class="container">
+      <div class="box--1">
+        <h1>Learn to code by watching others</h1>
+        <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+          but understanding how developers think is invaluable.</p>
+      </div>
+      <div class="box--2">
+        <h5 class="cta"> Try it free 7 <span>days then $20/mo. thereafter</span></h5>
+        <form class="form--box" action="" method="get">
+
+          <label>
+
+            <input  type="text" name="name" placeholder="First Name">
+           <span class="error--message">First Name cannot be empty</span>
+          </label>
+
+          <label>
+
+            <input type="text" name="last-name" placeholder="Last Name">
+            <span class="error--message">Last Name cannot be empty</span>
+            
+          </label>
+
+          <label>
+
+            <input type="email" name="email" placeholder="E-mail address">
+            <span class="error--message">Looks like this is not an email</span>
+            
+          </label>
+
+          <label>
+
+            <input type="password" name="password" placeholder="Password">
+            <span class="error--message">Password cannot be empty</span>
+            
+          </label>
+
+          <input class="sub--btn" type="submit" value="Claim your free trial">
+
+          <p class="agree--text">By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
+
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer>
+  <script src="main.js" charset="UTF-8"></script>
+</body>
+
+</html>
