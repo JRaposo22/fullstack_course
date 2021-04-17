@@ -1,0 +1,429 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body{
+
+    color:#fff;
+    font-family: 'Alata', sans-serif;
+    
+ 
+}
+
+img{
+
+    max-width:100%;
+}
+
+a{
+    color:#fff;
+    text-decoration: none;
+}
+
+
+.main--container{
+
+    margin:0 auto;
+    max-width:1440px;
+}
+
+.container--padding{
+    padding:3em 9em;
+}
+
+.heading{
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+   
+
+}
+
+.black{
+    color:rgb(0, 0, 0);
+}
+/*****************************************TOP-SECTION**************************************/
+
+.top--section{
+    
+    background-image:url(images/desktop/image-hero.jpg);
+    background-repeat:no-repeat;
+    min-height: 700px;
+    
+    
+}
+
+/*****************NAVBAR**************/
+
+.navbar{
+    align-items:center;
+    display:flex;
+    justify-content:space-between;
+}
+
+.nav--flex{
+    display:flex;
+    transition:ease-in-out 0.2s;
+}
+
+.nav__list__item + .nav__list__item{
+    margin-left:1em;
+}
+
+
+.hero--header{
+
+    border:2px solid white;
+    font-size:2rem;
+    margin-top:4em;
+    max-width:500px;
+    padding:0.6em 1.5em;
+    text-transform: uppercase;
+}
+
+.hero--header h1{
+
+  margin:0;
+}
+
+.hamburger--btn{
+
+    cursor:pointer;
+    display:none;
+
+}
+
+/***********************************************MID SECTION************************************************/
+
+.mid--section{
+    position:relative;
+    max-width:100%;
+}
+
+.mid--flex{
+    /* display:flex;
+    flex:1 1 50%;
+    flex-wrap: wrap; */
+   position:relative; 
+ } 
+
+.mid--heading{
+
+    color:black;
+    font-size:3rem;
+    text-transform: uppercase;
+}
+
+.mid__text{
+
+    background-color: #fff;
+    position:absolute;
+    left:50%;
+    top:200px;
+    max-width:700px;
+    padding:2em 0 0 5em;
+    z-index:2;
+}
+
+.mid__text p{
+
+    color:hsl(0, 0%, 55%);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    
+}
+
+
+
+
+
+
+
+/***************************************CREATIONS SECTION***********************************************/
+
+.creations--section{
+
+    position:relative;
+}
+
+
+
+.creations--header{
+
+    font-size:4rem;
+    text-transform: uppercase;
+
+}
+
+
+.see--btn{
+    border:2px solid black;
+    color:black;
+    letter-spacing: 5px;
+    padding:0.5em 1.5em;
+    position:absolute;
+    text-transform: uppercase;
+    top:10%;
+    left: 80%;
+}
+
+.flex--container{
+
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    min-height:450px;
+}
+
+
+.creations--title{
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-size:2rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    width:256px;
+    margin-bottom:1em;
+    
+    
+
+}
+
+.creations--title p {
+    margin:0;
+}
+
+.box--earth{
+
+   
+    background-image: url("images/desktop/image-deep-earth.jpg");
+    background-repeat: no-repeat;
+    /* filter:brightness(50%); */
+    
+    
+}
+
+.box--arcade{
+
+    background-image: url("images/desktop/image-night-arcade.jpg");
+    background-repeat: no-repeat;
+    /* filter:brightness(50%); */
+    
+    
+}
+
+.box--VR{
+
+    background-image: url("images/desktop/image-soccer-team.jpg");
+    background-repeat: no-repeat;
+    /* filter:brightness(90%); */
+    
+    
+}
+
+
+.box--grid{
+
+    background-image: url("images/desktop/image-grid.jpg");
+    background-repeat: no-repeat;
+    /* filter:brightness(50%); */ 
+    
+}
+
+.box--up--VR{
+
+   
+    background-image: url("images/desktop/image-from-above.jpg");
+    background-repeat: no-repeat;
+    /* filter:brightness(50%); */
+    
+    
+}
+
+.box--borealis{
+
+    background-image: url("images/desktop/image-pocket-borealis.jpg");
+    background-repeat: no-repeat;
+    /* filter:brightness(50%); */
+    
+    
+}
+
+.box--curiosity{
+
+    background-image: url("images/desktop/image-curiosity.jpg");
+    background-repeat: no-repeat;
+    /* filter:brightness(90%); */
+    
+    
+}
+
+
+.box--fisheye{
+
+    background-image: url("images/desktop/image-fisheye.jpg");
+    background-repeat: no-repeat;
+    /* filter:brightness(50%); */ 
+    
+}
+
+.creations--text{
+
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) , rgba(0, 0, 0, 0.411));
+    padding:10.5em 1.2em 35px;
+
+}
+
+
+/**********************************************FOOTER********************************************/
+
+.footer{
+
+    background-color: black;
+}
+
+.footer--flex{
+
+    display:flex;
+    justify-content:space-between;
+}
+
+.social--logo + .social--logo{
+
+    margin-left:1em;
+    
+}
+
+.footer__link + .footer__link{
+
+    margin-left:1em;
+
+}
+
+.copyrights{
+
+    color:hsl(0, 0%, 41%);
+
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+
+/***********************************************************MEDIA QUERY********************************************/
+
+@media (max-width:900px) {
+
+    .main--container{
+        text-align:center
+    }
+
+    .hamburger--btn{
+
+        display:block;
+        left:90%;
+        position:absolute;
+    }
+
+    .navbar{
+
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content:flex-start;
+        text-align:left;
+        
+    }
+
+    .nav--flex{
+        
+        flex-direction: column;
+        max-height:0px;
+        overflow:hidden;
+        margin-top:5em;
+    }
+
+    .nav__list__item{
+
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 300;
+        font-size:2rem;
+        margin:1em 0;
+        text-transform: uppercase;
+    }
+
+    .nav__list__item + .nav__list__item{
+
+        margin-left:0;
+    }
+
+    .mid__text{
+
+        position:static;
+        padding-left:0;
+       
+    }
+
+    .see--btn{
+  
+        position:static;
+        
+    }
+
+    .flex--container{
+        margin:1em auto;
+        justify-content: space-around;
+    }
+
+    .footer{
+        position:relative;
+        text-align:center;
+    }
+
+    .footer--flex{
+
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer--links{
+        flex-direction: column;
+      
+    }
+
+
+    .footer__link{
+
+        font-size:1rem;
+    }
+
+    .footer__link + .footer__link{
+
+        margin:1em 0;
+    
+    }
+
+
+    .footer--logo{
+
+        
+        max-width:50%;
+
+    }
+
+    .social--imgs{
+
+        position:absolute;
+        left:40%;
+        top:80%;
+    }
+
+    .copyrights{
+
+        margin-top:10em;
+    }
+    
+}
